@@ -13,9 +13,10 @@ export default function NavMenu() {
             <Navbar.Collapse id="basic-navbar-nav">
 
               <Nav className="me-auto">
-                <Nav.Link href="/page1">Pause/Go</Nav.Link>                
-                <Nav.Link href="/page2">Continous</Nav.Link>
-                <Nav.Link href="/page3">3</Nav.Link>
+                <Nav.Link href="#page1">Pause/Go</Nav.Link>                
+                <Nav.Link href="#page2">Continous</Nav.Link>
+                <Nav.Link>WIP: Vid Bg</Nav.Link>
+                <Nav.Link>WIP: Modal v2</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
