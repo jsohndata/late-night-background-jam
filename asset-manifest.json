@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/late-night-jam/static/css/main.91802110.css",
+    "main.css": "/late-night-jam/static/css/main.289e6f2a.css",
     "main.js": "/late-night-jam/static/js/main.f63406b6.js",
     "static/media/bg-110.jpg": "/late-night-jam/static/media/bg-110.147bba43c50acdba1759.jpg",
     "static/media/bg-100.jpg": "/late-night-jam/static/media/bg-100.9974793ba9504bf1dd61.jpg",
@@ -12,11 +12,11 @@
     "static/media/bg-210.jpg": "/late-night-jam/static/media/bg-210.2bc91c6e8ece4c6c29da.jpg",
     "static/media/bg-230.jpg": "/late-night-jam/static/media/bg-230.07ff985ce0c49d0055b0.jpg",
     "index.html": "/late-night-jam/index.html",
-    "main.91802110.css.map": "/late-night-jam/static/css/main.91802110.css.map",
+    "main.289e6f2a.css.map": "/late-night-jam/static/css/main.289e6f2a.css.map",
     "main.f63406b6.js.map": "/late-night-jam/static/js/main.f63406b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.91802110.css",
+    "static/css/main.289e6f2a.css",
     "static/js/main.f63406b6.js"
   ]
 }
