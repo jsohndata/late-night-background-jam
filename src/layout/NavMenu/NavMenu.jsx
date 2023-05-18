@@ -1,4 +1,5 @@
-import {  Container, Navbar, Nav } from "../../utilis/Bootstrap.jsx";
+import { Link } from "react-router-dom";
+import { Container, Navbar, Nav } from "../../utilis/Bootstrap.jsx";
 
 export default function NavMenu() {
 
@@ -13,8 +14,8 @@ export default function NavMenu() {
             <Navbar.Collapse id="basic-navbar-nav">
 
               <Nav className="me-auto">
-                <Nav.Link href="#page1">Pause/Go</Nav.Link>                
-                <Nav.Link href="#page2">Continous</Nav.Link>
+                <Nav.Link as={Link} to="/page1">Pause/Go</Nav.Link>                
+                <Nav.Link as={Link} to="/page2">Continous</Nav.Link>
                 <Nav.Link>WIP: Vid Bg</Nav.Link>
                 <Nav.Link>WIP: Modal v2</Nav.Link>
               </Nav>
