@@ -1,0 +1,25 @@
+import {  Container, Navbar, Nav } from "../../utilis/Bootstrap.jsx";
+
+export default function NavMenu() {
+
+  return (
+        <Navbar fixed="top" expand="lg" bg="dark" variant="dark">
+          <Container>
+            <Navbar.Brand>
+              <Nav.Link href="#root">Home</Nav.Link>
+            </Navbar.Brand>
+
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+
+              <Nav className="me-auto">
+                <Nav.Link href="/page1">1</Nav.Link>                
+                <Nav.Link href="/page2">2</Nav.Link>
+                <Nav.Link href="/page3">3</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+      );
+    }
+
