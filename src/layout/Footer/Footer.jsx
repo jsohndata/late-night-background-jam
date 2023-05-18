@@ -8,7 +8,9 @@ export default function Footer() {
       <footer>
         <Container>
           <Row>
-            <Col><p><small>&copy; {currentYear}</small></p></Col>
+            <Col>
+              <p className="text-center"><small>&copy; {currentYear}</small></p>
+            </Col>
           </Row>
         </Container>
       </footer>

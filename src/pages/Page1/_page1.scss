@@ -1,0 +1,87 @@
+@use "../../styles/variables" as var;
+
+#page1 {
+  height: clamp(60srem, 15vh, 50rem);
+  padding-bottom: 80px;  
+  background-color: rgba(252, 252, 252, 0.176);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-blend-mode: color;
+  padding-top: 80px;
+  animation: page1-animate 20s ease-in-out infinite;
+
+  @keyframes page1-animate {
+    0% { 
+      background-image: url("../../../public/images/bg-100.jpg");
+      background-position: 0% 0%; 
+    }
+
+    15% { 
+      background-image: url("../../../public/images/bg-110.jpg");
+      background-position: 50% 50%; 
+    } 
+
+    30% { 
+      background-image: url("../../../public/images/bg-110.jpg");
+      background-position: 50% 50%; 
+    }     
+
+    45% { 
+      background-image: url("../../../public/images/bg-120.jpg");
+      background-position: 100% 100%;
+    }
+
+    60% { 
+      background-image: url("../../../public/images/bg-120.jpg");
+      background-position: 100% 100%;
+    }
+
+    75% { 
+      background-image: url("../../../public/images/bg-130.jpg");
+      background-position: 50% 50%;
+    }
+
+    90% { 
+      background-image: url("../../../public/images/bg-130.jpg");
+      background-position: 50% 50%;
+    }
+
+    100% { 
+      background-image: url("../../../public/images/bg-100.jpg");
+      background-position: 0% 0%; 
+    }    
+  }
+
+  h1 {
+    color: gold;
+  }
+
+  h2, p {
+    color: var.$color-light;
+  }
+
+  h1, h2, p {
+    text-shadow: 1px 1px 2px rgba(220, 69, 250, 0.661);
+  } 
+
+  .content {
+    border: 5px solid rgba(255, 255, 255, 0.149);
+    border-radius: var.$border-radius;
+    background-color: rgba(2, 16, 28, 0.723);
+    padding: 50px;
+  }
+
+  .custom-button {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.328);
+    background-color: var.$color-primary--light;
+  }
+
+  .custom-button:hover {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.328);
+    background-color: var.$color-primary--dark;
+  }
+}

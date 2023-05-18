@@ -1,0 +1,30 @@
+/* Colors */
+$color-dark: #232323;
+$color-light: rgba(244, 245, 246, 0.804);
+
+$color-primary: #884B93;
+$color-primary--light: rgba(186, 85, 204, 0.865);
+$color-primary--dark: rgba(78, 18, 87, 0.934);
+
+$border-radius: 13px;
+
+/* Units */
+$hero-padding: 30px;
+
+/* Place Holder */
+%button-style {
+  padding: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+%banner-style {
+  padding-top: $hero-padding;
+  padding-bottom: $hero-padding;
+}
+
+%bg-gradient {
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #84094fdd 0%, #784BA0 50%, #2B86C5 100%);
+  
+}
