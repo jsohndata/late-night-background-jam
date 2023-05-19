@@ -1,7 +1,7 @@
 @use "../../styles/variables" as var;
 
 #page2 {
-  height: clamp(60srem, 15vh, 50rem);
+  height: clamp(60srem, 15vh, 50rem);  
   padding-bottom: 80px;  
   background-color: rgba(252, 252, 252, 0.176);
   overflow: hidden;
@@ -54,6 +54,10 @@
 
   h2 {
     color: var.$color-primary;
+  }
+
+  h1, h2 {
+    font-weight: 200;
   }
 
   h1, h2, p {
