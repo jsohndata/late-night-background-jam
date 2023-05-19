@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/late-night-jam/static/css/main.b6b297ad.css",
-    "main.js": "/late-night-jam/static/js/main.fb5be8b7.js",
-    "static/media/bg-110.jpg": "/late-night-jam/static/media/bg-110.147bba43c50acdba1759.jpg",
-    "static/media/bg-100.jpg": "/late-night-jam/static/media/bg-100.9974793ba9504bf1dd61.jpg",
-    "static/media/bg-120.jpg": "/late-night-jam/static/media/bg-120.a2b7ed11efa6a0ed78b0.jpg",
-    "static/media/bg-200.jpg": "/late-night-jam/static/media/bg-200.0ab22c87e21058fcf057.jpg",
-    "static/media/bg-130.jpg": "/late-night-jam/static/media/bg-130.11cba33aeb7732e304ec.jpg",
-    "static/media/bg-240.jpg": "/late-night-jam/static/media/bg-240.b18bc07a1a65069796f0.jpg",
-    "static/media/bg-220.jpg": "/late-night-jam/static/media/bg-220.f8e2c640d388a3a1995a.jpg",
-    "static/media/bg-210.jpg": "/late-night-jam/static/media/bg-210.2bc91c6e8ece4c6c29da.jpg",
-    "static/media/bg-230.jpg": "/late-night-jam/static/media/bg-230.07ff985ce0c49d0055b0.jpg",
-    "index.html": "/late-night-jam/index.html",
-    "main.b6b297ad.css.map": "/late-night-jam/static/css/main.b6b297ad.css.map",
-    "main.fb5be8b7.js.map": "/late-night-jam/static/js/main.fb5be8b7.js.map"
+    "main.css": "/late-night-background-jam/static/css/main.d2bdd15a.css",
+    "main.js": "/late-night-background-jam/static/js/main.f86271f0.js",
+    "static/media/bg-110.jpg": "/late-night-background-jam/static/media/bg-110.147bba43c50acdba1759.jpg",
+    "static/media/bg-100.jpg": "/late-night-background-jam/static/media/bg-100.9974793ba9504bf1dd61.jpg",
+    "static/media/bg-120.jpg": "/late-night-background-jam/static/media/bg-120.a2b7ed11efa6a0ed78b0.jpg",
+    "static/media/bg-200.jpg": "/late-night-background-jam/static/media/bg-200.0ab22c87e21058fcf057.jpg",
+    "static/media/bg-130.jpg": "/late-night-background-jam/static/media/bg-130.11cba33aeb7732e304ec.jpg",
+    "static/media/bg-240.jpg": "/late-night-background-jam/static/media/bg-240.b18bc07a1a65069796f0.jpg",
+    "static/media/bg-220.jpg": "/late-night-background-jam/static/media/bg-220.f8e2c640d388a3a1995a.jpg",
+    "static/media/bg-210.jpg": "/late-night-background-jam/static/media/bg-210.2bc91c6e8ece4c6c29da.jpg",
+    "static/media/bg-230.jpg": "/late-night-background-jam/static/media/bg-230.07ff985ce0c49d0055b0.jpg",
+    "index.html": "/late-night-background-jam/index.html",
+    "main.d2bdd15a.css.map": "/late-night-background-jam/static/css/main.d2bdd15a.css.map",
+    "main.f86271f0.js.map": "/late-night-background-jam/static/js/main.f86271f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6b297ad.css",
-    "static/js/main.fb5be8b7.js"
+    "static/css/main.d2bdd15a.css",
+    "static/js/main.f86271f0.js"
   ]
 }
