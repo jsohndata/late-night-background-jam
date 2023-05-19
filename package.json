@@ -1,8 +1,8 @@
 {
-  "name": "late-night-jam",
+  "name": "late-night-background-jam",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jsohndata.github.io/late-night-jam/",
+  "homepage": "https://jsohndata.github.io/late-night-background-jam/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
