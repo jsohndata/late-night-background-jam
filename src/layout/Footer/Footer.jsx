@@ -11,7 +11,7 @@ export default function Footer() {
             <Col>
               <p className="text-center"><small>&copy; {currentYear}</small></p>
               
-              <p id="mozarts-ghost"><a href="https://notiempo.lol/mozartsghost/13"
+              <p id="mozarts-ghost"><a href="https://notiempo.lol/mozartsghost/14"
                 alt="Click on it and press control-shift."
                 title="Click on it and press control-shift.">π</a></p>
             </Col>
