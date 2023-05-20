@@ -8,9 +8,10 @@ export default function Layout( {children} ) {
         <NavMenu />
 
         <div className="main-container">
-        {children}
+          {children}
         </div>
-
+        
+        
         <Footer />
       </> 
     );

@@ -55,9 +55,26 @@ a:hover {
   text-decoration: none;
 }
 
-footer p {
-  margin-top: 2%;
-  color: var.$color-light;
-  opacity: 0.5;
-}
+// footer p {
+//   margin-top: 2%;
+//   color: var.$color-light;
+//   opacity: 0.5;
+// }
 
+#mozarts-ghost {
+  position: fixed;
+  opacity: 1;
+  bottom: 0;
+  left: 10px;
+  padding: 10px;
+
+    a:link,
+    a:visited {
+    color: rgba(255, 255, 255, 0.714);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(195, 0, 255);
+  }
+}

@@ -3,9 +3,7 @@
 #page2 {
   height: clamp(60srem, 15vh, 50rem);  
   padding-bottom: 80px;  
-  background-color: rgba(252, 252, 252, 0.176);
-  overflow: hidden;
-  
+  background-color: rgba(252, 252, 252, 0.176);  
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +16,6 @@
     0% { 
       background-image: url("../../../public/images/bg-200.jpg");
       background-position: 0% 0%;
-      
     }
 
     15% { 

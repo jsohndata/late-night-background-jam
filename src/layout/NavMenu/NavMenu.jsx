@@ -7,13 +7,15 @@ export default function NavMenu() {
         <Navbar fixed="top" expand="lg" bg="dark" variant="dark">
           <Container>
             <Navbar.Brand>
-              <Nav.Link href="#root">Late Night Jam</Nav.Link>
+              <Nav.Link 
+                href="https://github.com/jsohndata/late-night-background-jam"
+                target="_blank">Code in GitHub</Nav.Link>
             </Navbar.Brand>
 
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
+            <Navbar.Toggle aria-controls="navbar-nav" />
+            <Navbar.Collapse id="navbar-nav">
 
-              <Nav className="me-auto">
+              <Nav className="ms-auto">
                 <Nav.Link as={Link} to="/page1">Pause/Go</Nav.Link>                
                 <Nav.Link as={Link} to="/page2">Continous</Nav.Link>
                 <Nav.Link as={Link} to="/page3">Movie</Nav.Link>
