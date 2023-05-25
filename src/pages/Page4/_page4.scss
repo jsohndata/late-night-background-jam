@@ -1,11 +1,11 @@
 @use "../../styles/variables" as var;
 
-// 1/4 => Needed for Pan360
+/* 1/4 => Needed for Pan360 */
 .pan360-container {
   position: relative;  
 }
 
-// 2/4 => Needed for Pan360
+/* 2/4 => Needed for Pan360 */
 .pan360-media {
   position: absolute;
   top: 0;
@@ -16,8 +16,8 @@
 
 
 .pan360-content {
-  margin-top: 20%; // 3/4 =>  Needed for Pan360
-  margin-bottom: 20%; // 4/4 => Needed for Pan360
+  margin-top: 20%; /* 3/4 =>  Needed for Pan360 */
+  margin-bottom: 20%; /* 4/4 => Needed for Pan360 */
 
   background-color: rgba(71, 10, 79, 0.668);  
   padding: 30px;
