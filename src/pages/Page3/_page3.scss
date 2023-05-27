@@ -1,30 +1,38 @@
 @use "../../styles/variables" as var;
 
-.video-container {
-  position:absolute;
+
+.media-container {
+  position: relative;  
+}
+
+.media-wrapper {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  // overflow: hidden;
   z-index: -1;
 }
 
-.video-container video {
+.media-container video {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
 }
 
-#video-content {
+.media-content {
+  padding: 30px;  
+  margin-top: 20%; /* Needed for pan360 */
+  margin-bottom: 20%; /*  Needed for pan360 */  
   background-color: rgba(71, 10, 79, 0.668);
-  margin-top: 150px;
-  padding: 30px;
-  box-shadow: 5px 5px 10px rgba(248, 125, 255, 0.738), -5px -5px 10px rgba(220, 248, 37, 0.31);
+  box-shadow: 5px 5px 10px rgba(248, 125, 255, 0.738), 
+    -5px -5px 10px rgba(220, 248, 37, 0.31);  
+
 }
 
 
-#video-content { 
+#media-content { 
   h1 { 
     color: white;
     font-weight: 200;
@@ -37,8 +45,9 @@
   p { color: rgb(235, 245, 208); }
 }
 
-.video-narrative > .container{
+.media-narrative > .container{
   margin-top: 100px;
-  background-color: rgb(83, 13, 106);
-
+  background-color: rgba(71, 10, 79, 0.668);
+  box-shadow: 5px 5px 10px rgba(248, 125, 255, 0.738), 
+    -5px -5px 10px rgba(220, 248, 37, 0.31);  
 }

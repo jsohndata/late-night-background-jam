@@ -8,8 +8,8 @@ export default function Page4() {
   return (
     <Layout>
       <section id="page4">      
-        <div className="pan360-container">
-          <div className="pan360-media">
+        <div className="media-container">
+          <div className="media-wrapper">
             <Pannellum
               width="100%"
               height="100%"
@@ -33,7 +33,7 @@ export default function Page4() {
               md={{span:6, offset: 6}}
               style={{zIndex: "10"}}>
               
-              <div className="pan360-content">
+              <div className="media-content">
                 <h1>Techno Noir:<div>Vaporwave Chronicles</div></h1>
                 <p>Delves deeper into the enigmatic world of virtual reality, uncovering a hidden conspiracy that blurs the lines between the digital realm and reality itself, all set against a backdrop of nostalgic vaporwave aesthetics.</p>
                 <Button size="lg" variant="outline-success" className="custom-button">View Portfolio</Button>
@@ -45,7 +45,7 @@ export default function Page4() {
     </div>
     </section>    
 
-      <section className="pan360-narrative">
+      <section className="media-narrative">
         <Container>
           <Row>
             <Col xs={10} md={6}>
