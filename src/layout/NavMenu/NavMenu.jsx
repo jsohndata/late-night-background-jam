@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Container, Navbar, Nav } from "../../utilis/Bootstrap.jsx";
+import { Container, Navbar, Nav } from "../../utils/Bootstrap.jsx";
 
 export default function NavMenu() {
 

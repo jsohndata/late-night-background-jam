@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button } from "../../utilis/Bootstrap.jsx";
+import { Container, Row, Col, Button } from "../../utils/Bootstrap.jsx";
 import { Pannellum } from "pannellum-react";
 import Layout from "../../layout/index.jsx";
 import bg from "./background/cyberpunk_city_street_sky_scrapper_busy_twlight.jpg";

@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "../../utilis/Bootstrap.jsx";
+import { Container, Row, Col } from "../../utils/Bootstrap.jsx";
 
 export default function Footer() {
 
