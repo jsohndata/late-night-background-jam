@@ -11,7 +11,7 @@ export default function Footer() {
             <Col>
               <p className="text-center"><small>&copy; {currentYear}</small></p>
               
-              <p id="mozarts-ghost"><a href="https://jsohndata.github.io/no-tiempo/mozartsghost?id=bgjam"
+              <p id="mozarts-ghost"><a href="https://mozartsghost.band/rock?on=late-night-bg-jam"
                 alt="Click on it and press control-shift."
                 title="Click on it and press control-shift.">π</a></p>
             </Col>
