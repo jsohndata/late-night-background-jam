@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/late-night-background-jam/static/css/main.8c7c1ca8.css",
-    "main.js": "/late-night-background-jam/static/js/main.57f59fcb.js",
+    "main.js": "/late-night-background-jam/static/js/main.06fd5d7a.js",
     "static/media/cyberpunk_city_street_sky_scrapper_busy_twlight.jpg": "/late-night-background-jam/static/media/cyberpunk_city_street_sky_scrapper_busy_twlight.09587ca352a23a627dbd.jpg",
     "static/media/bg-110.jpg": "/late-night-background-jam/static/media/bg-110.147bba43c50acdba1759.jpg",
     "static/media/bg-100.jpg": "/late-night-background-jam/static/media/bg-100.9974793ba9504bf1dd61.jpg",
@@ -19,10 +19,10 @@
     "static/media/background.svg": "/late-night-background-jam/static/media/background.73c746e88409ccb4b512.svg",
     "static/media/compass.svg": "/late-night-background-jam/static/media/compass.0f193cd39061ea43cc46.svg",
     "main.8c7c1ca8.css.map": "/late-night-background-jam/static/css/main.8c7c1ca8.css.map",
-    "main.57f59fcb.js.map": "/late-night-background-jam/static/js/main.57f59fcb.js.map"
+    "main.06fd5d7a.js.map": "/late-night-background-jam/static/js/main.06fd5d7a.js.map"
   },
   "entrypoints": [
     "static/css/main.8c7c1ca8.css",
-    "static/js/main.57f59fcb.js"
+    "static/js/main.06fd5d7a.js"
   ]
 }
